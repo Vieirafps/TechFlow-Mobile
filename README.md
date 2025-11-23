@@ -1,4 +1,4 @@
-O TechFlow Mobile é o aplicativo oficial do ecossistema TechFlow, criado para facilitar a abertura, consulta e acompanhamento de chamados técnicos.
+O TechFlow é um app para gerenciamento de chamados e suporte tecnico, com inteligencia artificial integrada, criado para facilitar a abertura, consulta e acompanhamento de chamados técnicos.
 Ele foi desenvolvido especialmente para técnicos e usuários que precisam de agilidade no dia a dia, oferecendo uma interface simples, direta e totalmente integrada à API do sistema.
 
 O objetivo é proporcionar uma experiência rápida e prática, conectando colaboradores e equipe técnica de forma eficiente.

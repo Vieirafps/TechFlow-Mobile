@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:background="@color/cinza_claro">
+
+    <TextView
+        android:id="@+id/txtTituloRecuperarSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Senha"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/edtEmailRecuperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu e-mail"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnEnviarRecuperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Recuperação"
+        android:padding="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_claro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_tech"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:elevation="8dp"
+            android:background="@drawable/card_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar Perfil"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome completo"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefone"
+                android:inputType="phone"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtSetor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Setor / Departamento"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtSenhaNova"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nova senha"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar nova senha"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginBottom="24dp" />
+
+            <Button
+                android:id="@+id/btnSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar alterações"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/colorPrimary"
+                android:padding="14dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

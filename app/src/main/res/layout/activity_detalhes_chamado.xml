@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_claro">
+
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_tech"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="28dp"
+            android:contentDescription="Logo TechFlow" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/card_bg"
+            android:elevation="6dp">
+
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título do Chamado"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:id="@+id/txtDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrição detalhada."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D0D0D0"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:id="@+id/txtCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categoria: Rede"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:id="@+id/txtPrioridade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prioridade: Alta"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status: Aberto"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="12dp"/>
+
+
+            <TextView
+                android:id="@+id/txtData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aberto em: 10/02/2025"
+                android:textSize="15sp"
+                android:textColor="@color/cinza_medio"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Spinner
+                android:id="@+id/spStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+
+            <Button
+                android:id="@+id/btnSalvarStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar Alteração"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

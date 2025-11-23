@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techflowsupport">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TechFlow Support"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechFlow">
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".ui.home.HomeUsuarioActivity" android:exported="true"/>
+        <activity android:name=".ui.login.LoginActivity" android:exported="true" />
+
+
+
+        <activity android:name=".ui.chamados.NovoChamadoActivity" android:exported="true"/>
+        <activity android:name=".ui.chamados.MeusChamadosActivity" android:exported="true"/>
+        <activity android:name=".ui.chamados.DetalhesChamadoActivity" android:exported="true"/>
+
+        <activity android:name=".ui.chat.ChatActivity" android:exported="true"/>
+
+
+
+
+        <activity android:name=".ui.faq.FaqActivity" android:exported="true"/>
+
+        <activity android:name=".ui.login.RecuperarSenhaActivity" android:exported="true" />
+
+
+
+        <activity android:name=".ui.perfil.PerfilActivity" android:exported="true"/>
+        <activity android:name=".ui.perfil.EditarPerfilActivity" android:exported="true"/>
+
+        <activity android:name=".ui.tecnico.DashboardTecnicoActivity" android:exported="true"/>
+
+        <activity android:name=".MainActivity" android:exported="false"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#8FFF00</color>
+    <color name="colorPrimaryDark">#4E8A00</color>
+    <color name="colorAccent">#8FFF00</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="cinza_claro">#F2F2F2</color>
+    <color name="cinza_medio">#8A8A8A</color>
+
+    <color name="dark_bg">#050505</color>
+    <color name="dark_card">#0F1F0E</color>
+    <color name="dark_text">#D4D4D4</color>
+
+</resources>
